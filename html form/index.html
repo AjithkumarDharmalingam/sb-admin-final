@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-container">
+    <h1> Self Registration Form </h1>
+    <hr width="610" align="left">
+    <table>
+        <tbody>
+        <tr>
+            <td  height="30"> FirstName :</td>
+            <td> <input id="firstname" type="text"></td>
+        </tr>
+        <tr>
+            <td  height="30"> LastName :</td>
+            <td> <input id="lastname" type="text"></td>
+        </tr>
+        <tr>
+            <td  height="30"> Adderss :</td>
+            <td> <textarea id="address" cols="50" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td  height="30"> Pincode :</td>
+            <td> <input id="pincode" type="number"></td>
+        </tr>
+        <tr>
+            <td  height="30"> Gender :</td>
+            <td id="gender"> 
+                <input id="Male" type="radio" name="gender" value="Male">Male
+                <input id="Female" type="radio" name="gender" value="Female">Female
+            </td>
+        </tr>
+        <tr>
+            
+            <td> Food :</td>
+            <td id="food">
+            <input type="checkbox" name="food" value="meat">Meat
+            <input type="checkbox" name="food" value="Seafood">Seafood
+            <input type="checkbox" name="food" value="Desserts">Desserts
+            <input type="checkbox" name="food" value="Dried foods">Dried foods
+            <input type="checkbox" name="food" value="Fast Food">Fast Food
+            </td>
+        
+        </tr>
+        <tr>
+            <td height="40"> State :</td>
+            <td>
+                <input id="state" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td  height="90"> Country :</td>
+            <td>
+                <input id="country" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td height="50" align="center">
+            <input type="button" id="submit" value="Submit">
+            </td>
+        </tr><br>
+
+        
+    </tbody>
+    </table>
+    <hr width="610" align="left">
+</div>
+<div class="right-container">
+    <fieldset style="width: 50%;">
+        <legend>
+            <h2>Temporary Database</h2>
+        </legend>
+        <table id="data" border="2">
+            <tr>
+                <td>FirstName</td>
+                <td>LastName</td>
+                <td>Adderss</td>
+                <td>Pincode</td>
+                <td>Gender</td>
+                <td>Food</td>
+                <td>State</td>
+                <td>Country</td>
+            </tr>
+        </table>
+    </fieldset>
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html> 

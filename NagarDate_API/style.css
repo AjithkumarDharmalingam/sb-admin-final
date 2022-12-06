@@ -1,0 +1,13 @@
+body{   
+    background: #a4b2c0;
+    background: linear-gradient(to right, #6a85a7, #2d3e49);
+    
+}
+.card{
+    box-shadow: 0 0.5rem 1rem 0 rgba(107, 81, 81, 0.1);
+    display: flex;
+}
+.Countrycode{
+    font-size: 25px;
+    font-family: cursive;
+}

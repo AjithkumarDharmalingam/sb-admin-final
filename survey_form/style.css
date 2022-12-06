@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+   justify-content: center;
+   align-items: center;
+}
+
+.center{
+    border: 2px solid black;
+    max-width: 60vw;
+    margin: auto;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    padding: 40px;
+    margin: 5px 10px;
+    background-color: #3d3f49;
+    color: #fff;
+}
+
+.details{
+    padding: 15px 60px;
+}
+.details lable{
+    font-size: 1em;
+}
+.details .height{
+    height: 2.5vh;
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 1px solid grey;
+    width: 21vw;
+}
+.details .between{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 99.5%;
+}
+.details #mail{
+    width: 99.5%;
+    height: 2.5vh;
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: 1px solid grey;
+    font-weight: 500;
+}
+.star{
+    font-size: 2rem;
+    color: #ff9800;
+    background-color: unset;
+    border: none;
+}
+.star:hover{
+    cursor: pointer;
+}
+.para{
+    font-size: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    empty-cells: hide;
+    color: black;
+    
+}
+
+table tbody td,th{
+    /* border: 2px solid #c3cad8; */
+    padding: 10px;
+    width: 60%;
+}
+
+table tbody td{
+    text-align: center;
+}
+
+table tbody th{
+    font-size: 0.8em;
+    
+}
+.bold{
+    font-size: 1em;
+    font-weight: 400;
+}
+.details label a{
+    color: red;
+}
+tr:nth-child(even){
+    background-color: rgb(146, 132, 132)
+  }
+
+@media only screen and (max-width: 900px) {
+    body {
+      background-color: lightblue;
+    }
+    h1{
+        font-size: 15px;
+    }
+    tbody{
+        font-size: 9px;
+    }
+    .message{
+        width: 100%;
+        
+    }
+  }
+
+ 

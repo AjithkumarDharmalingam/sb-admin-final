@@ -1,0 +1,68 @@
+// for in
+let person = ["Ajith", "vasanth", "dinesh"];
+ let result = " ";
+ for (let index in person) {
+   result += ` ${person[index]} `;
+ }
+console.log(result);
+
+// for of
+let person = ["Ajith", "vasanth", "dinesh"];
+result = " ";
+for (let key of person){
+    result += `${person}`
+}
+console.log(result)
+
+// foreach
+let person = ["Ajith", "vasanth", "dinesh"];
+result = "";
+person.forEach(function (person) {
+  result += ` ${person} `;
+});
+ console.log(result);
+
+// for loop
+let person = ["Ajith", "vasanth", "dinesh"];
+
+let result = "";
+for (let i = 0; i < person.length; i++) {
+  result += ` ${person[i]} `;
+}
+
+console.log(result);
+
+
+
+// JSON resume Formet 
+
+myResume={
+    "name":"Ajithkumar"
+    "Email":"ajithkumarbe97@gmail.com"
+    "phone":"8220782876"
+    "degree":"EEE"
+
+    "address":{
+        "portalcode":"637410"
+        "city":"namakkal"
+        "state":"tamilnadu"
+        "country":"india"
+    }
+    "profile":
+    {
+        "websites":"www.linkedin.com"
+    }
+    "education":[
+        {
+            "ssc":{"institute":"govt school":"vaiyappalamai"}
+            "Hsc":{"institute":"govt school":"vaiyappalamai"}
+            "BE":{"institute":"selvam college of thehnology":"namakkal"}
+        }
+    ]
+    "work":[
+        {"organization":"VPG","tenure":4}
+    ]
+    "skills":["quality management",]
+
+    "interest":["music"]
+}

@@ -1,0 +1,20 @@
+.container-fluid{
+    max-width: 60%;
+    text-align: center;
+    background-color:grey;
+}
+
+#searchbtn{
+    padding: 2px 25px;
+}
+
+#resetbtn{
+    padding: 2px 25px;
+}
+.name{
+    color:black;
+}
+.country{
+    font-style: italic;
+    color:lightgrey;
+}

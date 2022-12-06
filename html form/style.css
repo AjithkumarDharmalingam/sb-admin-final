@@ -1,0 +1,12 @@
+body{
+    font-size: 17px;
+    font-family: sans-serif;
+}
+table{
+    background:linear-gradient(to right,#3f5efb, #fc466b);
+}
+
+.container{
+    display: flex;
+}
+

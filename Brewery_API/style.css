@@ -1,0 +1,12 @@
+body {
+    background: #a4b2c0;
+    background: linear-gradient(to right, #6a85a7, #2d3e49);
+    
+  }
+  .design {
+    box-shadow: 0 0.5rem 1rem 0 rgba(241, 4, 4, 0.1);
+    font-weight: bold;
+  }
+  .name{
+    font-family: Cursive;
+  }
